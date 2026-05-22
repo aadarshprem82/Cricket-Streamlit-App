@@ -1,0 +1,91 @@
+[theme]
+
+primaryColor="#FF4B4B"
+
+backgroundColor="#0E1117"
+
+secondaryBackgroundColor="#161B22"
+
+textColor="#FAFAFA"
+
+font="sans serif"
+
+# ==========================================
+# SERVER
+# ==========================================
+
+[server]
+
+headless=true
+
+enableCORS=false
+
+enableXsrfProtection=false
+
+port=8501
+
+runOnSave=true
+
+# ==========================================
+# BROWSER
+# ==========================================
+
+[browser]
+
+gatherUsageStats=false
+
+serverAddress="0.0.0.0"
+
+# ==========================================
+# GLOBAL
+# ==========================================
+
+[global]
+
+developmentMode=false
+
+# ==========================================
+# LOGGER
+# ==========================================
+
+[logger]
+
+level="info"
+
+messageFormat="%(asctime)s %(message)s"
+
+# ==========================================
+# CLIENT
+# ==========================================
+
+[client]
+
+toolbarMode="minimal"
+
+showErrorDetails=true
+
+# ==========================================
+# MAPBOX
+# ==========================================
+
+[mapbox]
+
+token=""
+
+# ==========================================
+# RUNNER
+# ==========================================
+
+[runner]
+
+magicEnabled=true
+
+fastReruns=true
+
+# ==========================================
+# DEPRECATION
+# ==========================================
+
+[deprecation]
+
+showPyplotGlobalUse=false
